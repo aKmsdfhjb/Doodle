@@ -9,12 +9,12 @@ This project classifies sketches into five distinct categories. Users can draw d
 
 ### Selected Categories:
 
-* 🍎 **Apple**
-* ☁️ **Cloud**
-* 🚲 **Bicycle**
-* 🍦 **Ice Cream**
-* 🚗 **Car**
-*(Note: You can swap these out in your `classes.txt` or training script.)*
+*  **Apple**
+*  **Cookie**
+*  **Dog**
+*  **Eye**
+*  **Face**
+*(Note: You can swap these out in your training script.)*
 
 ---
 
@@ -46,8 +46,8 @@ The model follows this general structure:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/doodle-ml-project.git
-cd doodle-ml-project
+git clone https://github.com/aKmsdfhjb/Doodle.git
+cd doodle
 
 ```
 
@@ -77,8 +77,8 @@ The model was trained on ** grayscale bitmap files** (.npy format).
 
 | Metric | Score |
 | --- | --- |
-| **Training Accuracy** | ~95% |
-| **Validation Accuracy** | ~92% |
+
+| **Validation Accuracy** | ~96% |
 
 ---
 
