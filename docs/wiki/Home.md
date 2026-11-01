@@ -13,7 +13,7 @@ python app.py
 ## Key repository references
 
 - [Source repository](https://github.com/aKmsdfhjb/Doodle)
-- [README](../../README.md)
+- [README](https://github.com/aKmsdfhjb/Doodle#readme)
 - [Architecture](Architecture.md)
 
 ## Scope and limitations
