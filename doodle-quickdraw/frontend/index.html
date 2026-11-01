@@ -1,23 +1,2 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Doodle Quick Draw</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<h1>Doodle Quick Draw 🎨</h1>
-
-<canvas id="canvas" width="280" height="280"></canvas>
-
-<div class="buttons">
-    <button onclick="clearCanvas()">Clear</button>
-    <button onclick="predict()">Predict</button>
-</div>
-
-<p id="result">Prediction: —</p>
-
-<script src="script.js"></script>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Draw a sketch and classify it with a five-class CNN."><title>Doodle Recognition — AK Projects</title><link rel="stylesheet" href="style.css"></head><body><main class="wrap"><header class="top"><span>AK / PROJECTS</span><span class="index">05 — COMPUTER VISION · CNN</span></header><h1>Draw a <em>prediction.</em></h1><p class="intro">Sketch one of five categories and send the drawing to the TensorFlow inference API. The browser handles the canvas; the Python backend handles model inference.</p><hr><div class="layout"><section class="panel"><div class="eyebrow">01 / Drawing surface</div><div class="canvas-wrap"><canvas id="canvas" width="280" height="280" aria-label="Drawing canvas"></canvas></div><div class="actions"><button id="clear" class="secondary">Clear canvas</button><button id="predict">Classify sketch</button></div><p id="status" class="status" aria-live="polite">Draw an Apple, Cookie, Dog, Eye or Face.</p></section><aside class="panel"><div class="eyebrow">02 / Inference</div><label for="apiUrl">BACKEND API URL</label><input id="apiUrl" type="url" placeholder="http://127.0.0.1:5000"><p class="help">GitHub Pages is static hosting. Run the Flask/TensorFlow API separately, then paste its base URL here. The browser does not invent predictions when the API is unavailable.</p><div class="result"><span class="eyebrow">PREDICTED CLASS</span><strong id="prediction">—</strong><span id="confidence" class="confidence">No result yet</span></div><div class="class-list"><span>01 / APPLE</span><span>02 / COOKIE</span><span>03 / DOG</span><span>04 / EYE</span><span>05 / FACE</span></div></aside></div><footer><span>DOODLE RECOGNITION / INTERACTIVE EDITION</span><span>RESEARCH → BUILD → TEST → SHIP</span></footer></main><script src="script.js"></script></body></html>
