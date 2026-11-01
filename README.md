@@ -82,3 +82,4 @@ See the repository's license and dataset terms before redistributing trained wei
 - [Architecture and deployment](docs/wiki/Architecture.md)
 
 The repository keeps a version-controlled wiki source under `docs/wiki/`.
+- [Video production brief](docs/video/production-brief.md)
