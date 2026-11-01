@@ -74,3 +74,11 @@ The classifier recognizes only the five training categories. Confidence is the m
 ## License
 
 See the repository's license and dataset terms before redistributing trained weights or source data.
+
+
+## Project Wiki
+
+- [Wiki home](docs/wiki/Home.md)
+- [Architecture and deployment](docs/wiki/Architecture.md)
+
+The repository keeps a version-controlled wiki source under `docs/wiki/`.
